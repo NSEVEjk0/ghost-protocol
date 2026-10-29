@@ -1,0 +1,30 @@
+{
+  "name": "ghost-protocol",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "build": "next build",
+    "start": "next start -p 3003"
+  },
+  "dependencies": {
+    "gsap": "^3.12.7",
+    "howler": "^2.2.4",
+    "lenis": "^1.1.18",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.13",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.172.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.5.0"
+  }
+}
